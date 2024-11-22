@@ -53,7 +53,6 @@ Minikube — это локальный Kubernetes, ориентированны�
 
 ## Ход работы
 1. Установка Docker и Minikub на рабочий компьютер
-![Снимок экрана 2024-11-21 192356](https://github.com/user-attachments/assets/01fec8a1-2a83-4ff5-b6ce-02911d1389ed)
 
 2. Развертывание minikube cluster
 ![Снимок экрана 2024-11-05 212613](https://github.com/user-attachments/assets/13fe9807-25e9-440f-9dd4-ce896600e539)
@@ -63,4 +62,9 @@ Minikube — это локальный Kubernetes, ориентированны�
 ![Снимок экрана 2024-11-05 212718](https://github.com/user-attachments/assets/6d5cc742-b51e-42d7-bb2d-2dec15a38b7b)
 - Создаем контейнер на основе образа vault - docker run -d --name vault vault.
 - Проверяем, что появился контейнер vault - docker ps -a.
+
+
+
+
+hvs.IOVMRKyI7ax1O0KdDB52RYzX
 
