@@ -61,26 +61,39 @@ Minikube — это локальный Kubernetes, ориентированны�
 - скачиваем образ
 ![скачиваем образ](https://github.com/user-attachments/assets/6f75f257-1f36-4022-9a3b-f29b0c4ae468)
 - создаем контейнер на основе образа
-![Создаем контейнер](https://github.com/user-attachments/assets/3b2951cf-4ff9-4958-a81b-53a35deef58a)
+![создание контейнера](https://github.com/user-attachments/assets/c64b63a9-108c-45d5-8ed1-71f600f01bcc)
+
 
 - проверяем создание контейнера  
 ![Проверяем, что появился контейнер](https://github.com/user-attachments/assets/9cdcb0b0-6337-47d9-b81d-dfd29eef91ec)
 
 4. Создание сервиса
 - создание манифеста YAML
+![файл манифеста](https://github.com/user-attachments/assets/4ff898e3-a7e0-494d-9a17-2c9002960748)
 
 - применения манифеста
+![применяем манифест](https://github.com/user-attachments/assets/4ec381d6-9d83-43f3-a671-f79a08de93b3)
 
 - проверка появления Pod
+![проверка узла ](https://github.com/user-attachments/assets/10f3a96a-6939-4022-9d0d-08b491bdb167)
 
 - создаем сервис для доступа к Pod
+![создание сервиса](https://github.com/user-attachments/assets/df767285-ab08-4b4b-8b82-2ce6252252ab)
 
 - перенаправляем трафик на контейнер
+![перенаправление трафика](https://github.com/user-attachments/assets/343a7768-3dc3-4ad2-b245-d3a537ef9691)
 
 - страница авторизации Vault http://localhost:8200.
+![страница авторизации](https://github.com/user-attachments/assets/0fe5c80f-f103-4a8e-8f3f-9d603cc56cee)
 
 - поиск токена для авторизации (hvs.IOVMRKyI7ax1O0KdDB52RYzX)
+![поиск токена в логах](https://github.com/user-attachments/assets/e28a24db-0efa-4edb-94a2-adf1d321c639)
+![токен](https://github.com/user-attachments/assets/1c2c4769-d7f3-4177-a5db-8c380bff1112)
 
-- останавливаем minikube cluster командой minikube stop.
+- успешная авторизация
+![процесс авторизации](https://github.com/user-attachments/assets/87ad7833-677d-47f8-ad5a-3a3c6651da29)
+
+- останавливаем minikube cluster
+![остановка minikub](https://github.com/user-attachments/assets/74629863-763c-40ad-9d0e-1ab61bee8601)
 
 
