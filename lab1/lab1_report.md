@@ -1,4 +1,4 @@
-# 2023_2024-introduction_to_distributed_technologies-K4112c-maksimova_d_d
+# 2024_2025-introduction_to_distributed_technologies-K4112c-maksimova_d_d
 University: [ITMO University](https://itmo.ru/ru/)
 Faculty: [FICT](https://fict.itmo.ru)
 Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
