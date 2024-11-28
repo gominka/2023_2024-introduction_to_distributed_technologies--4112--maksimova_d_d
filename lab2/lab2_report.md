@@ -34,10 +34,14 @@ Date of finished: 15.11.2024
 ![Запуск minikube](https://github.com/user-attachments/assets/5aad332f-54b6-459e-862d-a6001e087cf1)
 
 - создаем файл манифеста
-![Манифест](https://github.com/user-attachments/assets/1133a93f-6b25-459c-b0aa-7ebd5bb31328)
+![Файл манифеста](https://github.com/user-attachments/assets/1133a93f-6b25-459c-b0aa-7ebd5bb31328)
+
+- применяем созданный файл
+![Манифест](https://github.com/user-attachments/assets/5cab8eeb-ebbc-4ffe-a837-ccfe30028249)
 
 
-4. и передать переменные в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME.
+
+
 
 Создать сервис через который у вас будет доступ на эти "поды". Выбор типа сервиса остается на ваше усмотрение.
 
