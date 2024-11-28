@@ -25,22 +25,24 @@ Date of finished: 15.11.2024
 ## Ход работы
 1. Cоздание deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master
 - скачиваем образ и проверяем его появление 
-![Скачиваем образ](https://github.com/user-attachments/assets/8f73a53c-7d0b-47ab-9859-3e97a25f1389)
 
+  ![Скачиваем образ](https://github.com/user-attachments/assets/8f73a53c-7d0b-47ab-9859-3e97a25f1389)
+  
 - создаем контейнер на основе образа и проверяем его появление
-![Создаем контейнер](https://github.com/user-attachments/assets/3333a416-39e4-4897-89c5-1cfd8001b1e9)
 
+  ![Создаем контейнер](https://github.com/user-attachments/assets/3333a416-39e4-4897-89c5-1cfd8001b1e9)
+  
 -  запускаем minikube
   
-![Запуск minikube](https://github.com/user-attachments/assets/5aad332f-54b6-459e-862d-a6001e087cf1)
+  ![Запуск minikube](https://github.com/user-attachments/assets/5aad332f-54b6-459e-862d-a6001e087cf1)
 
 - создаем файл манифеста
 
-![Файл манифеста](https://github.com/user-attachments/assets/1133a93f-6b25-459c-b0aa-7ebd5bb31328)
+  ![Файл манифеста](https://github.com/user-attachments/assets/1133a93f-6b25-459c-b0aa-7ebd5bb31328)
 
 - применяем созданный файл
   
-![Манифест](https://github.com/user-attachments/assets/5cab8eeb-ebbc-4ffe-a837-ccfe30028249)
+  ![Манифест](https://github.com/user-attachments/assets/5cab8eeb-ebbc-4ffe-a837-ccfe30028249)
 
 2. Создание сервиса для доступа на "поды"
 - cоздаем сервис и пробрасываем локальный порт на порт контейнера
@@ -64,9 +66,8 @@ Date of finished: 15.11.2024
   
   ![Снимок экрана 2024-11-12 194306](https://github.com/user-attachments/assets/7bb9f158-4d53-4b32-ab21-f1858c37f9fe)
 
-
 ## Схема организации контейеров и сервисов
 
-
+![image](https://github.com/user-attachments/assets/f2263811-2620-48ad-be81-ad56bd43430c)
 
 
