@@ -139,5 +139,6 @@ Minikube — утилита командной строки, которая по
 
 ## Схема организации контейеров и сервисов
 
-![image](https://github.com/user-attachments/assets/73068db9-f393-409c-9f4b-39f9de5d93df)
+![image](https://github.com/user-attachments/assets/de538a7c-bd20-43f9-a43b-2be852b8eb2b)
+
 
