@@ -137,4 +137,6 @@ Minikube — утилита командной строки, которая по
 - останавливаем minikube cluster
   ![остановка minikub](https://github.com/user-attachments/assets/74629863-763c-40ad-9d0e-1ab61bee8601)
 
+## Схема организации контейеров и сервисов
 
+![image](https://github.com/user-attachments/assets/e0015dd2-6990-4892-9b86-37ee1e8dcb6a)
