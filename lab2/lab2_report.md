@@ -46,12 +46,16 @@ Date of finished: 15.11.2024
 - подключаемся к контейнерам через веб браузер
 ![Сайт](https://github.com/user-attachments/assets/f4892333-f4fa-4c05-881f-99c5e998f15d)
 
-3. Провяем логи подов
+3. Проверка логов
 - список подов
+
 ![Снимок экрана 2024-11-12 194009](https://github.com/user-attachments/assets/a6eca004-c66a-49b6-84df-3a69a6078f4e)
 
 - логи подов
 ![Снимок экрана 2024-11-12 194111](https://github.com/user-attachments/assets/8ba22c7f-4aea-4251-a89f-35ebad12eebd)
+
+- удаляем развертывание и останавливаем minikube
+![Снимок экрана 2024-11-12 194306](https://github.com/user-attachments/assets/7bb9f158-4d53-4b32-ab21-f1858c37f9fe)
 
 
 ## Схема организации контейеров и сервисов
