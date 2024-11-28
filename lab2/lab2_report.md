@@ -31,31 +31,38 @@ Date of finished: 15.11.2024
 ![Создаем контейнер](https://github.com/user-attachments/assets/3333a416-39e4-4897-89c5-1cfd8001b1e9)
 
 -  запускаем minikube
+  
 ![Запуск minikube](https://github.com/user-attachments/assets/5aad332f-54b6-459e-862d-a6001e087cf1)
 
 - создаем файл манифеста
+
 ![Файл манифеста](https://github.com/user-attachments/assets/1133a93f-6b25-459c-b0aa-7ebd5bb31328)
 
 - применяем созданный файл
+  
 ![Манифест](https://github.com/user-attachments/assets/5cab8eeb-ebbc-4ffe-a837-ccfe30028249)
 
 2. Создание сервиса для доступа на "поды"
 - cоздаем сервис и пробрасываем локальный порт на порт контейнера
-![Создание сервиса](https://github.com/user-attachments/assets/913d3293-f279-485f-bcbd-44a069011ef4)
+
+  ![Создание сервиса](https://github.com/user-attachments/assets/913d3293-f279-485f-bcbd-44a069011ef4)
 
 - подключаемся к контейнерам через веб браузер
-![Сайт](https://github.com/user-attachments/assets/f4892333-f4fa-4c05-881f-99c5e998f15d)
+  
+  ![Сайт](https://github.com/user-attachments/assets/f4892333-f4fa-4c05-881f-99c5e998f15d)
 
 3. Проверка логов
 - список подов
 
-![Снимок экрана 2024-11-12 194009](https://github.com/user-attachments/assets/a6eca004-c66a-49b6-84df-3a69a6078f4e)
+  ![Снимок экрана 2024-11-12 194009](https://github.com/user-attachments/assets/a6eca004-c66a-49b6-84df-3a69a6078f4e)
 
 - логи подов
-![Снимок экрана 2024-11-12 194111](https://github.com/user-attachments/assets/8ba22c7f-4aea-4251-a89f-35ebad12eebd)
+ 
+  ![Снимок экрана 2024-11-12 194111](https://github.com/user-attachments/assets/8ba22c7f-4aea-4251-a89f-35ebad12eebd)
 
 - удаляем развертывание и останавливаем minikube
-![Снимок экрана 2024-11-12 194306](https://github.com/user-attachments/assets/7bb9f158-4d53-4b32-ab21-f1858c37f9fe)
+  
+  ![Снимок экрана 2024-11-12 194306](https://github.com/user-attachments/assets/7bb9f158-4d53-4b32-ab21-f1858c37f9fe)
 
 
 ## Схема организации контейеров и сервисов
