@@ -1,17 +1,33 @@
-Lab4
-Лабораторная работа №4 "Сети связи в Minikube, CNI и CoreDNS"
-Описание
+# 2024_2025-introduction_to_distributed_technologies-K4112c-maksimova_d_d
+University: [ITMO University](https://itmo.ru/ru/)
+Faculty: [FICT](https://fict.itmo.ru)
+Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
+Year: 2023/2024
+Group: K4112c
+Author: Maksimova Daria Dmitrievna
+Lab: Lab4
+Date of create: 03.12.2024
+Date of finished: 03.12.2024
+
+
+# Лабораторная работа №4 "Сети связи в Minikube, CNI и CoreDNS"
+## Описание
 Это последняя лабораторная работа в которой вы познакомитесь с сетями связи в Minikube. Особенность Kubernetes заключается в том, что у него одновременно работают underlay и overlay сети, а управление может быть организованно различными CNI.
 
-Цель работы
+## Цель работы
 Познакомиться с CNI Calico и функцией IPAM Plugin, изучить особенности работы CNI и CoreDNS.
 
-Правила по оформлению
-Правила по оформлению отчета по лабораторной работе вы можете изучить по ссылке
+## Ход работы
+1. При запуске minikube устанавливаем плагин CNI=calico и режим работы Multi-Node Clusters.
+![Установка плагина](https://github.com/user-attachments/assets/82cbc650-d6b9-4b7f-8620-8f2417dee70d)
 
-Ход работы
-При запуске minikube установите плагин CNI=calico и режим работы Multi-Node Clusters одновеременно, в рамках данной лабораторной работы вам нужно развернуть 2 ноды.
+- проверяем появление нод
+
+в рамках данной лабораторной работы вам нужно развернуть 2 ноды.
 Оригинальная инструкция для установки Calico в Minikube ссылка Оригинальная инструкция для включение 2-ух нод в Minikube ссылка
+
+
+
 
 Проверьте работу CNI плагина Calico и количество нод, результаты проверки приложите в отчет.
 
