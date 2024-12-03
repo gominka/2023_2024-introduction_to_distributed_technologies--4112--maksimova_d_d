@@ -22,29 +22,36 @@ Date of finished: 03.12.2024
 
 ![Установка плагина](https://github.com/user-attachments/assets/cf1b91c8-bd50-4265-bc8c-5fea16e9f552)
 
-- проверяем появление нод
+- проверка работы CNI плагина Calico и количество нод
 
 ![![image](https://github.com/user-attachments/assets/1ce2a9f8-c4fc-4530-9981-16ba9431ef01)
 ](https://github.com/user-attachments/assets/a25861a7-53c1-4be1-8615-c0a17679a8af)
 
 
+2. Проверка режима IPAM 
+- указываем label
 
-Проверьте работу CNI плагина Calico и количество нод, результаты проверки приложите в отчет.
+![Метки узлов](https://github.com/user-attachments/assets/c72b1b48-b52f-4345-afac-f1c043917a8f)
 
-Для проверки работы Calico мы попробуем одну из функций под названием IPAM Plugin.
+- создаем манифест IPPool 
 
-Для проверки режима IPAM необходимо для запущеных ранее нод указать label по признаку стойки или географического расположения (на ваш выбор).
+![Манифест](https://github.com/user-attachments/assets/29c68aa5-2782-4b56-a54d-a2b602bcd8a8)
 
-Оригинальная инструкция для назначения IP адресов в Calico ссылка
+- установили calicoctl
 
-После этого вам необходимо разработать манифест для Calico который бы на основе ранее указанных меток назначал бы IP адреса "подам" исходя из пулов IP адресов которые вы указали в манифесте.
+![Установка](https://github.com/user-attachments/assets/da0047f6-af25-4e77-8a70-1a809378193c)
 
-Вам необходимо создать deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и передать переменные в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME.
+- проверяем поды по умолчанию
 
-Создать сервис через который у вас будет доступ на эти "поды". Выбор типа сервиса остается на ваше усмотрение.
+  ![image](https://github.com/user-attachments/assets/d7433078-46f5-4a71-acdc-9332ac9d8ca9)
 
-Запустить в minikube режим проброса портов и подключитесь к вашим контейнерам через веб браузер.
+- удаляем IPPool по-умолчанию
 
-Проверьте на странице в веб браузере переменные Container name и Container IP. Изменяются ли они? Если да то почему?
+![image](https://github.com/user-attachments/assets/08ce8249-9048-485f-804f-ec09f22bcb85)
 
-Используя kubectl exec зайдите в любой "под" и попробуйте попинговать "поды" используя FQDN имя соседенего "пода", результаты пингов необходимо приложить к отчету.
+
+- создаем IPPool'ы
+
+![image](https://github.com/user-attachments/assets/2798da8c-d86c-4b9c-9ac0-053c20e65356)
+
+  
