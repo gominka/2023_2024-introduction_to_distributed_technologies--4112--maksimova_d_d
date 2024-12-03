@@ -22,6 +22,7 @@ Date of finished: 03.12.2024
 ![Установка плагина](https://github.com/user-attachments/assets/82cbc650-d6b9-4b7f-8620-8f2417dee70d)
 
 - проверяем появление нод
+![Проверка нод](https://github.com/user-attachments/assets/68e3fbdd-443c-4814-8056-3b582bc84d74)
 
 в рамках данной лабораторной работы вам нужно развернуть 2 ноды.
 Оригинальная инструкция для установки Calico в Minikube ссылка Оригинальная инструкция для включение 2-ух нод в Minikube ссылка
