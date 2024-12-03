@@ -24,7 +24,9 @@ Date of finished: 03.12.2024
 
 - проверяем появление нод
 
-![Проверка нод](https://github.com/user-attachments/assets/68e3fbdd-443c-4814-8056-3b582bc84d74)
+![![image](https://github.com/user-attachments/assets/1ce2a9f8-c4fc-4530-9981-16ba9431ef01)
+](https://github.com/user-attachments/assets/a25861a7-53c1-4be1-8615-c0a17679a8af)
+
 
 
 Проверьте работу CNI плагина Calico и количество нод, результаты проверки приложите в отчет.
