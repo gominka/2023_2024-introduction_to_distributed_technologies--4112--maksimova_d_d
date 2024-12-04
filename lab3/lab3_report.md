@@ -31,16 +31,28 @@ Date of finished: 28.11.2024
 
 
 2. Создание replicaSet с 2 репликами контейнера
-- создали манифест для replicaSet
-![создание манифеста](https://github.com/user-attachments/assets/c4cf58d0-3d48-4744-89fc-ebb636bb2f96)
+- создали манифест
+
+  ![создание манифеста](https://github.com/user-attachments/assets/c4cf58d0-3d48-4744-89fc-ebb636bb2f96)
 
 - применили манифест
-![применения манифеста](https://github.com/user-attachments/assets/19f420e6-0ce3-4c7b-b714-5b89783c2eab)
+
+  ![применения манифеста](https://github.com/user-attachments/assets/19f420e6-0ce3-4c7b-b714-5b89783c2eab)
+
+3. Создание Service
+- создали манифест
+
+![создание манифеста](https://github.com/user-attachments/assets/5f10bbba-959b-4d86-848e-9320e6fde79a)
+
+- применили манифест
+
+![применения манифеста](https://github.com/user-attachments/assets/0e610d0e-73d6-44f4-a798-be6efc667e7e)
+
 
 4. Включение minikube addons enable ingress и генерация TLS сертификат, импортировать сертификат в minikube.
 
-5. Создание ingress в minikube, где указан ранее импортированный сертификат, FQDN по которому вы будете заходить и имя сервиса который вы создали ранее.
+7. Создание ingress в minikube, где указан ранее импортированный сертификат, FQDN по которому вы будете заходить и имя сервиса который вы создали ранее.
 
-6. В hosts пропишите FQDN и IP адрес вашего ingress и попробуйте перейти в браузере по FQDN имени.
+8. В hosts пропишите FQDN и IP адрес вашего ingress и попробуйте перейти в браузере по FQDN имени.
 
-7. Вошли в веб приложение по FQDN используя HTTPS и проверили наличие сертификата.
+9. Вошли в веб приложение по FQDN используя HTTPS и проверили наличие сертификата.
