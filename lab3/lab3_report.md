@@ -58,12 +58,28 @@ Date of finished: 28.11.2024
 
  ![сертификат](https://github.com/user-attachments/assets/f7c45039-963f-4417-b2bd-ea25a8aa96ea)
 
--  создали Secret
+5. Создание Secret
 
-  
+  ![Secret](https://github.com/user-attachments/assets/4e270037-f60c-4755-861f-9867505cbb8a)
+
+6. Создание ingress
+
+- подключение ingress в mininkub
+
+  ![подключение ingress](https://github.com/user-attachments/assets/14c7a6c6-3ba1-448c-af04-aade6f3af757)
+
+- создали манифест
+
+![создание манифеста](https://github.com/user-attachments/assets/9bf0b19a-12e0-4694-9b4e-a90522c55aad)
+
+- применили манифест
+
+  ![применения манифеста](https://github.com/user-attachments/assets/1950e07f-e4c7-406e-bf48-c83a5c6877c9)
 
 
-8. Создание ingress в minikube, где указан ранее импортированный сертификат, FQDN по которому вы будете заходить и имя сервиса который вы создали ранее.
+
+
+8. в minikube, где указан ранее импортированный сертификат, FQDN по которому вы будете заходить и имя сервиса который вы создали ранее.
 
 9. В hosts пропишите FQDN и IP адрес вашего ingress и попробуйте перейти в браузере по FQDN имени.
 
