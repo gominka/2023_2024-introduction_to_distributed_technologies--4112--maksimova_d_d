@@ -22,17 +22,13 @@ Date of finished: 03.12.2024
 - установили плагин, режим работы и развернули 2 ноды
   ![Установка плагина](https://github.com/user-attachments/assets/cf1b91c8-bd50-4265-bc8c-5fea16e9f552)
 
-- произвели проверку
+- проверили создание нод
 
+  ![проверка создания нод](https://github.com/user-attachments/assets/643b8edd-932f-48bd-814b-52fcc8a7c414)
 
-
-
-
-- проверка работы CNI плагина Calico и количество нод
+- произвели проверку работы CNI Calico
 
 ![![image](https://github.com/user-attachments/assets/1ce2a9f8-c4fc-4530-9981-16ba9431ef01)
-](https://github.com/user-attachments/assets/a25861a7-53c1-4be1-8615-c0a17679a8af)
-
 
 2. Проверка режима IPAM 
 - указываем label
