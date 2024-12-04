@@ -19,23 +19,28 @@ Date of finished: 28.11.2024
 
 ## Ход работы
 
-1. Создание configMap с переменными: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME
+1. Создание configMap.
 
 - создали манифест для configMap
   
   ![configMap](https://github.com/user-attachments/assets/19b16f67-3e44-415d-9f17-76768d528683)
 
 - запустили minikube и применили манифест
-![применения манифеста](https://github.com/user-attachments/assets/69292ed1-dff5-428d-a94b-fec5225c781b)
+  
+  ![применения манифеста](https://github.com/user-attachments/assets/69292ed1-dff5-428d-a94b-fec5225c781b)
 
 
+2. Создание replicaSet с 2 репликами контейнера
+- создали манифест для replicaSet
+![создание манифеста](https://github.com/user-attachments/assets/c4cf58d0-3d48-4744-89fc-ebb636bb2f96)
 
-2. Создание replicaSet с 2 репликами контейнера, используя ранее созданный configMap
+- применили манифест
+![применения манифеста](https://github.com/user-attachments/assets/19f420e6-0ce3-4c7b-b714-5b89783c2eab)
 
-3. Включение minikube addons enable ingress и генерация TLS сертификат, импортировать сертификат в minikube.
+4. Включение minikube addons enable ingress и генерация TLS сертификат, импортировать сертификат в minikube.
 
-4. Создание ingress в minikube, где указан ранее импортированный сертификат, FQDN по которому вы будете заходить и имя сервиса который вы создали ранее.
+5. Создание ingress в minikube, где указан ранее импортированный сертификат, FQDN по которому вы будете заходить и имя сервиса который вы создали ранее.
 
-5. В hosts пропишите FQDN и IP адрес вашего ingress и попробуйте перейти в браузере по FQDN имени.
+6. В hosts пропишите FQDN и IP адрес вашего ingress и попробуйте перейти в браузере по FQDN имени.
 
-6. Вошли в веб приложение по FQDN используя HTTPS и проверили наличие сертификата.
+7. Вошли в веб приложение по FQDN используя HTTPS и проверили наличие сертификата.
