@@ -28,32 +28,32 @@ Date of finished: 03.12.2024
 
 - произвели проверку работы CNI Calico
 
-![![image](https://github.com/user-attachments/assets/1ce2a9f8-c4fc-4530-9981-16ba9431ef01)
+  ![![image](https://github.com/user-attachments/assets/1ce2a9f8-c4fc-4530-9981-16ba9431ef01)
 
 2. Проверка режима IPAM 
-- указываем label
+- указывали label
 
-![Метки узлов](https://github.com/user-attachments/assets/c72b1b48-b52f-4345-afac-f1c043917a8f)
+  ![image](https://github.com/user-attachments/assets/a1722494-3a80-44e8-953d-21e41f867d4d)
 
-- создаем манифест IPPool 
+- создали манифест IPPool 
 
-![Манифест](https://github.com/user-attachments/assets/29c68aa5-2782-4b56-a54d-a2b602bcd8a8)
+![Снимок экрана 2024-12-03 204232](https://github.com/user-attachments/assets/5fd2e3f1-9659-435e-8477-0a31424f4a7a)
 
-- установили calicoctl
+- применили манифест
 
-![Установка](https://github.com/user-attachments/assets/da0047f6-af25-4e77-8a70-1a809378193c)
+  ![image](https://github.com/user-attachments/assets/39d2a493-5c98-451d-946e-fe00c82be690)
 
-- проверяем поды по умолчанию
+**- проверили поды по умолчанию
 
-  ![image](https://github.com/user-attachments/assets/d7433078-46f5-4a71-acdc-9332ac9d8ca9)
+  ![image](https://github.com/user-attachments/assets/d7433078-46f5-4a71-acdc-9332ac9d8ca9)**
 
-- удаляем IPPool по-умолчанию
+- удалили IPPool по-умолчанию
 
-![image](https://github.com/user-attachments/assets/08ce8249-9048-485f-804f-ec09f22bcb85)
+![image](https://github.com/user-attachments/assets/7c181eab-353c-4415-8dfa-bfcf5f4dcc53)
 
+- создали IPPool'ы
 
-- создаем IPPool'ы
+![Снимок экрана 2024-12-03 201955](https://github.com/user-attachments/assets/238318b2-4130-4ce0-933d-a90428f91ef1)
 
-![image](https://github.com/user-attachments/assets/2798da8c-d86c-4b9c-9ac0-053c20e65356)
 
   
