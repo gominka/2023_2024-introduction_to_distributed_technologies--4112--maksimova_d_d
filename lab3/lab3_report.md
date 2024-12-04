@@ -6,8 +6,8 @@ Year: 2023/2024
 Group: K4112c
 Author: Maksimova Daria Dmitrievna
 Lab: Lab3
-Date of create: 28.11.2024
-Date of finished: 28.11.2024
+Date of create: 26.11.2024
+Date of finished: 26.11.2024
 
 
 # Лабораторная работа №3 "Сертификаты и "секреты" в Minikube, безопасное хранение данных."
@@ -70,17 +70,23 @@ Date of finished: 28.11.2024
 
 - создали манифест
 
-![создание манифеста](https://github.com/user-attachments/assets/9bf0b19a-12e0-4694-9b4e-a90522c55aad)
+  ![создание манифеста](https://github.com/user-attachments/assets/9bf0b19a-12e0-4694-9b4e-a90522c55aad)
 
 - применили манифест
 
   ![применения манифеста](https://github.com/user-attachments/assets/1950e07f-e4c7-406e-bf48-c83a5c6877c9)
 
+7. Подкление к Ingress
 
+- подключение
 
+  ![image](https://github.com/user-attachments/assets/5a39f50e-2119-450b-8d65-fa9cefe1075c)
 
-8. в minikube, где указан ранее импортированный сертификат, FQDN по которому вы будете заходить и имя сервиса который вы создали ранее.
+- переход на веб-сайт
 
-9. В hosts пропишите FQDN и IP адрес вашего ingress и попробуйте перейти в браузере по FQDN имени.
+  ![Снимок экрана 2024-11-26 203155](https://github.com/user-attachments/assets/2c39fc60-95d5-4572-9a14-a9078ed6e4f5)
 
-10. Вошли в веб приложение по FQDN используя HTTPS и проверили наличие сертификата.
+- сертификат
+
+  ![Снимок экрана 2024-11-26 203225](https://github.com/user-attachments/assets/b29ec065-d9b4-45ac-9ded-daf9b1397535)
+
