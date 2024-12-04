@@ -16,6 +16,8 @@ Date of finished: 03.12.2024
 ## Цель работы
 Познакомиться с CNI Calico и функцией IPAM Plugin, изучить особенности работы CNI и CoreDNS.
 
+## Теория
+
 ## Ход работы
 1. Запуск minikub с установленным плагином и режимом работы
 
@@ -43,10 +45,6 @@ Date of finished: 03.12.2024
 
   ![image](https://github.com/user-attachments/assets/39d2a493-5c98-451d-946e-fe00c82be690)
 
-**- проверили поды по умолчанию
-
-  ![image](https://github.com/user-attachments/assets/d7433078-46f5-4a71-acdc-9332ac9d8ca9)**
-
 - удалили IPPool по-умолчанию
 
 ![image](https://github.com/user-attachments/assets/7c181eab-353c-4415-8dfa-bfcf5f4dcc53)
@@ -55,5 +53,36 @@ Date of finished: 03.12.2024
 
 ![Снимок экрана 2024-12-03 201955](https://github.com/user-attachments/assets/238318b2-4130-4ce0-933d-a90428f91ef1)
 
+3. Создание Deployment и Service
 
-  
+- создали манифест Deployment
+
+  ![image](https://github.com/user-attachments/assets/052b70c7-5568-4a58-abb0-aa14eb81502b)
+
+- создали манифест Service
+
+  ![Снимок экрана 2024-12-03 201215](https://github.com/user-attachments/assets/5e80cd0c-34c0-4e38-a72b-f054c0d4803e)
+
+- применили манифесты
+
+  ![image](https://github.com/user-attachments/assets/122203b6-66cd-4c2c-bbe2-ee3bbdecfe5b)
+
+- произвели проверку
+
+  ![image](https://github.com/user-attachments/assets/b45fa14f-96ee-4e50-8555-cda61731f398)
+
+  4. Подключение к контейнерам
+
+ - пробрасываем порты
+   
+  ![Снимок экрана 2024-12-03 201316](https://github.com/user-attachments/assets/5ce62ddd-0e83-49ea-8738-6eaea490fc29)
+
+- подключаемся к веб-сайту
+
+  ![Снимок экрана 2024-12-03 201426](https://github.com/user-attachments/assets/85ca7bdd-b531-4a60-8168-2c9823c94a2e)
+
+- отправляем эхо-запрос
+
+  ![Снимок экрана 2024-12-03 201757](https://github.com/user-attachments/assets/a6dcd9db-7875-437f-9240-410816ef205c)
+
+## Схема организации контейеров и сервисов
