@@ -19,9 +19,7 @@ Date of finished: 26.11.2024
 
 ## Теория
 
-### СonfigMap
-
-[ConfigMaps| https://kubernetes.io/docs/concepts/configuration/configmap/]
+### СonfigMap(https://kubernetes.io/docs/concepts/configuration/configmap/)
 
 ConfigMap — это объект API, используемый для хранения **неконфиденциальных данных** в парах ключ-значение, который позволяет отделять данные конфигурации/файлы от образов для обеспечения переносимости контейнерных приложений.
 
