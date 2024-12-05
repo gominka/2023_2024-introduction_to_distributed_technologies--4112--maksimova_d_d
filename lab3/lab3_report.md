@@ -137,3 +137,5 @@ Ingress — это набор правил внутри кластера, пре
   ![Снимок экрана 2024-11-26 203225](https://github.com/user-attachments/assets/b29ec065-d9b4-45ac-9ded-daf9b1397535)
   
 ## Схема организации контейеров и сервисов
+
+  ![image](https://github.com/user-attachments/assets/2646e0f5-d2ca-4ff7-a5c2-e26c81b7b211)
