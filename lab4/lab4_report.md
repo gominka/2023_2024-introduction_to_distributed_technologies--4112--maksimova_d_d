@@ -86,3 +86,5 @@ Date of finished: 03.12.2024
   ![Снимок экрана 2024-12-03 201757](https://github.com/user-attachments/assets/a6dcd9db-7875-437f-9240-410816ef205c)
 
 ## Схема организации контейеров и сервисов
+
+  ![image](https://github.com/user-attachments/assets/a7a9e68b-552e-42ff-bed6-a344ea78fd84)
