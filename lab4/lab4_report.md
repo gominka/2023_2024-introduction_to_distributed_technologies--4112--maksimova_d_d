@@ -17,7 +17,7 @@ Date of finished: 03.12.2024
 Познакомиться с CNI Calico и функцией IPAM Plugin, изучить особенности работы CNI и CoreDNS.
 
 ## Теория
-
+CNI Calico и функцией IPAM Plugin, изучить особенности работы CNI и CoreDNS.
 ## Ход работы
 1. Запуск minikub с установленным плагином и режимом работы
 
