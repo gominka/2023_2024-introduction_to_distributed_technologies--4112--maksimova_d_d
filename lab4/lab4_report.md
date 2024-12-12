@@ -31,23 +31,21 @@ NetworkPolicies позволяет указать правила для пото
 
 CNI, который используется в Minikube по-умолчанию, не поддерживает NetworkPolicy, поэтому в рамках лабораторной работы используется [CNI Calico](https://docs.tigera.io/calico/latest/getting-started/kubernetes/minikube).
 
-
-### [CoreDNS](https://kubernetes.io/docs/tasks/administer-cluster/coredns/)
-CoreDNS - DNS-сервер, позволяет принимать запросы по UDP/TCP, TLS (RFC 7858) и gRPC. 
+### CoreDNS
+[CoreDNS](https://kubernetes.io/docs/tasks/administer-cluster/coredns/) - DNS-сервер, позволяет принимать запросы по UDP/TCP, TLS (RFC 7858) и gRPC. 
 
 CoreDNS используется как Service Discovery для Kubernetes.
-
 Service Discovery (обнаружение сервисов) позволяет приложению или компоненту получать информацию об их окружении и “соседях”.
 Главная идея, лежащая в основе обнаружения сервисов, состоит в том, что любой новый экземпляр приложения должен быть в состоянии программно определить детали своего текущего окружения. Это необходимо для того, чтобы новый экземпляр мог подключиться к существующему окружению приложения без ручного вмешательства.
 
-### [IPAM](https://docs.tigera.io/calico/latest/networking/ipam/get-started-ip-addresses)
-Kubernetes использует плагины **IPAM** для выделения и управления IP-адресами, назначенными подам.
+### IPAM
+Kubernetes использует плагины **[IPAM](https://docs.tigera.io/calico/latest/networking/ipam/get-started-ip-addresses)** для выделения и управления IP-адресами, назначенными подам.
 
 Calico предоставляет свой собственный плагин IPAM под названием calico-ipa
 IPAM от Calico обеспечивает дополнительную эффективность и гибкость распределения IP-адресов.
 
-### [IPPool](https://docs.tigera.io/calico/latest/networking/ipam/get-started-ip-addresses)
-IPPool - ресурс, направленный на определение наборов IP-адресов, которые Calico назначает подам, и правил для назначения первых.
+### IPPool
+[IPPool](https://docs.tigera.io/calico/latest/networking/ipam/get-started-ip-addresses) - ресурс, направленный на определение наборов IP-адресов, которые Calico назначает подам, и правил для назначения первых.
 
 ## Ход работы
 1. Запуск minikub с установленным плагином и режимом работы
